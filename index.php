@@ -3,7 +3,7 @@
 require_once "classes/Car.php";
 
 
-//create a ckass instance/object 
+//create a class instance/object 
 $bmw = new Car;
 
 $bmw->color = "Red";
@@ -18,7 +18,6 @@ echo "<br>";
 
 $mercedez = new Car;
 
-echo $mercedez->color;
 
 
 echo "<br>";
